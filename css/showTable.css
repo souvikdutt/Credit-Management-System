@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/r3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    width: 100%;
+    background-color: #edf1ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: black;
+    font-family: calibri;
+    font-weight: 600;
+    font-size: large;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0.05);
+    z-index: 1;
+}
+.nav span{
+    letter-spacing: 2px;
+    font-size: larger;
+    text-transform: uppercase;
+}
+.links{
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links a{
+    padding: 10px 30px;
+    border: 2px solid rgb(44, 186, 221);
+    margin-left: 10px;
+}
+.links a:hover{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+table,th,tr,td{
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border: 0.5px solid white;
+    padding: 15px;
+}
+tr{
+    background-color: #edf1ed;
+}
+table{
+    width: 70%;
+    margin-top: 100px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+.transfer{
+    border: none;
+    background-color: none;
+}
